@@ -7,7 +7,7 @@ public class ReversedString {
 		String myName = "Rahul Kawatghare";
 		String name = "Rahul Kawatghare";
 		String reverseMyName = reverseString(myName);
-		
+		String anotherName = "Meena";
 		System.out.print(reverseMyName);
 	}
 	
