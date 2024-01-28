@@ -5,6 +5,7 @@ public class ReversedString {
 	public static void main (String[] args) {
 		
 		String myName = "Rahul Kawatghare";
+		String name = "Rahul Kawatghare";
 		String reverseMyName = reverseString(myName);
 		
 		System.out.print(reverseMyName);
