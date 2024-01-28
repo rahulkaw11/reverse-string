@@ -1,0 +1,24 @@
+
+public class ReversedString {
+
+	
+	public static void main (String[] args) {
+		
+		String myName = "Rahul Kawatghare";
+		String reverseMyName = reverseString(myName);
+		
+		System.out.print(reverseMyName);
+	}
+	
+	public static String reverseString (String s) {
+		
+		int count = s.length();
+		
+		String reverse = "";
+		for (int i= count-1; i>=0; i--) {
+			reverse += s.charAt(i);
+		}
+		
+		return reverse;
+	}
+}
