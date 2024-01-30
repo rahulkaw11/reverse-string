@@ -5,11 +5,8 @@ public class ReversedString {
 	public static void main (String[] args) {
 		
 		String myName = "Rahul Kawatghare";
-		String name = "Rahul Kawatghare";
 		String reverseMyName = reverseString(myName);
-		String anotherName = "Meena";
 		System.out.print(reverseMyName);
-		System.out.print("MASTER BRANCH");
 	}
 	
 	public static String reverseString (String s) {
